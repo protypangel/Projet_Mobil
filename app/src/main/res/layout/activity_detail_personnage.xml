@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailPersonnage">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/logo_pv"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/logo"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/logo_degat"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/logo_pv"
+        app:layout_constraintTop_toBottomOf="@+id/logo_pv"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/logo_vitesse_attaque"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/logo_degat"
+        app:layout_constraintTop_toBottomOf="@+id/logo_degat"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/logo_vitesse_deplacement"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/logo_vitesse_attaque"
+        app:layout_constraintTop_toBottomOf="@+id/logo_vitesse_attaque"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/logo_regeneration_pv"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/logo_vitesse_deplacement"
+        app:layout_constraintTop_toBottomOf="@+id/logo_vitesse_deplacement"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/logo_armure"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/logo_regeneration_pv"
+        app:layout_constraintTop_toBottomOf="@+id/logo_regeneration_pv"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/logo_resistance_magique"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/logo_armure"
+        app:layout_constraintTop_toBottomOf="@+id/logo_armure"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/logo"
+        app:layout_constraintStart_toEndOf="@+id/logo"
+        app:layout_constraintTop_toTopOf="@+id/logo" />
+
+    <TextView
+        android:id="@+id/name_pv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/logo_pv"
+        app:layout_constraintStart_toEndOf="@+id/logo_pv"
+        app:layout_constraintTop_toTopOf="@+id/logo_pv" />
+
+    <TextView
+        android:id="@+id/name_degat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/logo_degat"
+        app:layout_constraintStart_toStartOf="@+id/name_pv"
+        app:layout_constraintTop_toTopOf="@+id/logo_degat" />
+
+    <TextView
+        android:id="@+id/name_vitesse_attaque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/logo_vitesse_attaque"
+        app:layout_constraintStart_toStartOf="@+id/name_degat"
+        app:layout_constraintTop_toTopOf="@+id/logo_vitesse_attaque" />
+
+    <TextView
+        android:id="@+id/name_vitesse_deplacement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/logo_vitesse_deplacement"
+        app:layout_constraintStart_toStartOf="@+id/name_vitesse_attaque"
+        app:layout_constraintTop_toTopOf="@+id/logo_vitesse_deplacement" />
+
+    <TextView
+        android:id="@+id/name_regeneration_pv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/logo_regeneration_pv"
+        app:layout_constraintStart_toStartOf="@+id/name_vitesse_deplacement"
+        app:layout_constraintTop_toTopOf="@+id/logo_regeneration_pv" />
+
+    <TextView
+        android:id="@+id/name_armure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/logo_armure"
+        app:layout_constraintStart_toStartOf="@+id/name_regeneration_pv"
+        app:layout_constraintTop_toTopOf="@+id/logo_armure" />
+
+    <TextView
+        android:id="@+id/name_resistance_magique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/logo_resistance_magique"
+        app:layout_constraintStart_toStartOf="@+id/name_armure"
+        app:layout_constraintTop_toTopOf="@+id/logo_resistance_magique" />
+</android.support.constraint.ConstraintLayout>
