@@ -32,3 +32,8 @@ Cette application permet d'afficher une liste de personnage de league of legend.
 ### Logo de l'application
 
 <img src="readme_images/screen3.png" width="268" height="467">
+
+### Animation
+
+<img src="readme_images/screen4.png" width="268" height="467">
+- Le mainActivity va vers le haut pendant que la secondeActivity va vers la droite
