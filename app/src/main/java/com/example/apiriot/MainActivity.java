@@ -71,5 +71,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DetailPersonnage.class);
         intent.putExtra("RiotPersonnage",nom_Personnage.get(position));
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_int_right,R.anim.slide_out_right);
     }
 }
