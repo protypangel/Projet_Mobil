@@ -18,6 +18,8 @@ Cette application permet d'afficher une liste de personnage de league of legend.
 - Fonctions supplémentaires :	
 	- Création d'une API personnalisée (rly-chrono.fr/api/stands)
 
+## Programme
+
 ### Ecran Home 
 
 <img src="readme_images/screen.png" width="268" height="467">
