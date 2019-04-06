@@ -16,7 +16,8 @@ Cette application permet d'afficher une liste de personnage de league of legend.
 	- Appel WebService à une API Rest.
 	- Stockage des données en cache.
 - Fonctions supplémentaires :	
-	- Création d'une API personnalisée (rly-chrono.fr/api/stands)
+	- Création d'une API personnalisée (http://rly-chrono.fr/api/League_of_legend/)
+	- Création d'une animation
 
 ## Programme
 
