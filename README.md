@@ -20,7 +20,7 @@ Cette application permet d'afficher une liste de personnage de league of legend.
 
 ### Ecran Home 
 
-<img src="readme_images/screen1.png" width="268" height="467">
+<img src="readme_images/screen.png" width="268" height="467">
 
 ### Ecran du détaillez
 
