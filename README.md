@@ -28,3 +28,7 @@ Cette application permet d'afficher une liste de personnage de league of legend.
 - Affiche le nom du personnage
 - L'image du personnage
 - Les stats (dégat, pv, armure ...) quand elles sont détailler sur league of legend le site internet.
+
+### Logo de l'application
+
+<img src="readme_images/screen3.png" width="268" height="467">
